@@ -54,6 +54,7 @@ a{
     font-size: 50px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 .angle-inputs{
     margin-bottom: 1rem;
@@ -82,6 +83,7 @@ button:hover{
 }
 #output-box{
     font-size: 35px;
+    text-align: center;
 }
 
 /* css for quiz page */
@@ -113,12 +115,18 @@ button:hover{
 .option3{
     margin-left: 1.5rem;
 }
-
+#hypotenuse-formula{
+    text-align: center;
+}
+#output{
+    text-align: center;
+}
 /* css for hypotenuse.html */
 #hypotenuse-heading{
     font-size: 50px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 #label-base{
     font-size: 40px;
@@ -145,11 +153,13 @@ button:hover{
 }
 #output{
     font-size: 35px;
+    text-align: center;
 }
 #area-heading{
     font-size: 50px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 #calculate-area-btn{
     font-size: 25px;
@@ -157,6 +167,9 @@ button:hover{
     border-radius: 1rem;
     cursor: pointer;
     margin-bottom: 2rem;
+}
+#area-formula{
+    text-align: center;
 }
 #output-area{
     font-size: 35px;
