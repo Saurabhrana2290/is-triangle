@@ -100,7 +100,7 @@ button:hover{
     font-size: 20px;
 }
 .quiz-form{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     padding: 1rem;
 }
 #submit-answer-btn{
