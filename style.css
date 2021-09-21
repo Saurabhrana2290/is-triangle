@@ -101,6 +101,7 @@ button:hover{
 }
 .quiz-form{
     margin-bottom: 1rem;
+    padding: 1rem;
 }
 #submit-answer-btn{
     font-size: 20px;
