@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400&family=Gluten:wght@200&display=swap');
 body{
     font-family: 'Gemunu Libre', sans-serif;
-    font-size: 30px;
+    background-color: rgba(226, 200, 226, 0.945);
+    /* font-size: 30px; */
 /* font-family: 'Gluten', cursive; */
 }
 *{
@@ -81,4 +82,28 @@ button:hover{
 }
 #output-box{
     font-size: 35px;
+}
+
+/* css for quiz page */
+#quiz-heading{
+    font-size: 50px;
+    margin-top: 1rem;
+}
+#quiz-instruction{
+    font-size: 28px;
+    margin-bottom: 1rem;
+}
+.question-container{
+    margin-bottom: 0.5rem;
+    font-size: 20px;
+}
+.quiz-form{
+    margin-bottom: 1rem;
+}
+#submit-answer-btn{
+    font-size: 20px;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
 }
