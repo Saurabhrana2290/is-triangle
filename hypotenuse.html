@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar">
-        <ul class="container">
+        <h1 id="brand">Fun with triangles</h1>
+        <ul class="item-container">
             <li class="non-bullet"><a href="istriangle.html">Is Triangle?</a></li>
             <li class="non-bullet"><a href="quiz.html">Quiz</a></li>
             <li class="non-bullet"><a href="hypotenuse.html">Hypotenuse Length</a></li>
             <li class="non-bullet"><a href="area.html">Triangle Area</a></li>
         </ul>
     </nav>
-    <h1 id="hypotenuse-heading">Calculate the hypotenuse length</h1>
-    <label for="base" id="label-base">Enter base:</label>
-    <input type="number" id="base" class="sides">
-    <label for="height" id="label-height">Enter height:</label>
-    <input type="number" id="height" class="sides">
-    <button id="calculate-hypotenuse-btn">Calculate Hypotenuse</button>
-    <h2 id="hyptenuse-formula">Formula to find hyptenuse length = sqrt(base^2 + height^2)</h2>
-    <div id="output"></div>
+    <div class="container">
+        <h1 id="hypotenuse-heading">Calculate the hypotenuse length</h1>
+        <label for="base" id="label-base">Enter base:</label>
+        <input type="number" id="base" class="sides">
+        <label for="height" id="label-height">Enter height:</label>
+        <input type="number" id="height" class="sides">
+        <button id="calculate-hypotenuse-btn">Calculate Hypotenuse</button>
+        <h2 id="hyptenuse-formula">Formula to find hyptenuse length = sqrt(base^2 + height^2)</h2>
+        <div id="output"></div>
+
+    </div>
 
     <script src="hypotenuse.js"></script>
 
 </body>
+
 </html>
