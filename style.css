@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400&family=Gluten:wght@200&display=swap');
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 30px;
+/* font-family: 'Gluten', cursive; */
+}
 *{
     margin: 0;
     padding: 0;
 }
+
+/* for all the html pages container div */
 .container{
     display: flex;
     flex-direction: column;
@@ -9,14 +17,13 @@
     justify-content: center;
 }
 
+/* for the navbar of all html pages */
 .navbar{
-    /* border: 2px solid black; */
     background-color: cornflowerblue;
     color: cornsilk;
     
 }
 .item-container{
-    /* border: 2px solid black; */
     width: fit-content;
     margin-left: auto;
     margin-top: 0.5rem;
@@ -24,7 +31,7 @@
     margin-bottom: 0rem;
 }
 .item-container li{
-    font-size: 20px;
+    font-size: 26px;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
@@ -34,11 +41,44 @@ a{
 }
 #brand{
     margin-left: 0.5rem;
-    font-size: 30px;
+    font-size: 38px;
 }
-
 .non-bullet{
-    /* border: 2px solid black; */
     list-style: none;
     display: inline;
+}
+
+/* isTriangle page css */
+#angles-heading{
+    font-size: 50px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.angle-inputs{
+    margin-bottom: 1rem;
+    font-size: 18px;
+    padding: 5px;
+}
+#angle1-label{
+    font-size: 40px;
+}
+#angle2-label{
+    font-size: 40px;
+}
+#angle3-label{
+    font-size: 40px;
+}
+#is-triangle-btn{
+    font-size: 25px;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+button:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+#output-box{
+    font-size: 35px;
 }
